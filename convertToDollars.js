@@ -20,7 +20,7 @@ function dollaBill(rawNum) {
         }
     }
     dollaString.unshift('$');
-    console.log(dollaString);
+    //console.log(dollaString);
     // loop through new array to re-convert to a string    
     for (d = 0; d < dollaString.length; d++) {
         realString += dollaString[d];
